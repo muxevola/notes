@@ -55,6 +55,8 @@ print(os.environ.get('VIRTUAL_ENV'))
 import sys
 print(sys.prefix)
 ```
-
+Step 9: Git
+* Install Git
+* Install "GitHub Pull Requests" extension in VSC
 
 By following these steps, you can ensure that your Jupyter Notebook runs within an isolated and properly configured Python environment in VS Code
