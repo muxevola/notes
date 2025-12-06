@@ -59,4 +59,8 @@ Step 9: Git
 * Install Git
 * Install "GitHub Pull Requests" extension in VSC
 
+Step 10: Reqquirements
+* Your cloned Git repo contains a `requirement.txt` file
+* Within the virt-env => `pip install -r requirements.txt`
+
 By following these steps, you can ensure that your Jupyter Notebook runs within an isolated and properly configured Python environment in VS Code
