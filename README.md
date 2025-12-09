@@ -30,10 +30,9 @@ Step 4: Install Jupyter Notebook
 * With the virtual environment activated, install Jupyter:
 * `pip install jupyter ipykernel`
 
-Step 5: Add Virtual Environment to Jupyter
-* Register your virtual environment as a Jupyter kernel:
-* Replace myenv with your virtual environment name.
-* `python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"`
+Step 5: Nake venv easily available to Python and Jupyter
+* `Ctrl-P` => `Preferences: Open User Settings (JSON)`
+* `"python.venvPath": "python.venvPath": "C:\\MyApps\\vscode\\envs", `
 
 Step 6: Configure VS Code to Use the Virtual Environment
 * Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on Mac).
